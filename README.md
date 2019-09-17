@@ -8,8 +8,9 @@ Use FPGA implement a game named 2048
  
 # System specification
   Block diagram
- 
+  ![image](https://github.com/Davidlee92605/verilog_2048/blob/master/Block%20diagram.png)
   State transition
+  ![image](https://github.com/Davidlee92605/verilog_2048/blob/master/System%20transition.png)
 # Design
   1. Keyboard
   我們keyboard主要是接了 W,A,S,D,Enter,Space這些功能。 分別是向上，向左，向下，向右 ， 返回 ， 進入遊戲畫面這些 功能。而􏰁入一個按鍵功能，我們又把它做編碼的動作是為了讓 後面做判斷的動作來得快些。
@@ -37,4 +38,5 @@ Use FPGA implement a game named 2048
   Speaker 參考之前 Lab speaker 的部分，我們實作了背景音樂的功 能，進入遊戲之後會開始撥放音樂，接著隨著分數提高，音樂的 速度會逐漸加快。當 state 進入已經沒有方向可以動時，也就是 輸掉遊戲之後，會改為撥放第二個配樂，增加遊戲的豐富度。
 
 # Experimental results
-  
+  ![image](https://github.com/Davidlee92605/verilog_2048/blob/master/Result.png)
+  ![image](https://github.com/Davidlee92605/verilog_2048/blob/master/Result2.png)
